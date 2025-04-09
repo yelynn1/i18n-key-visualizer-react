@@ -1,0 +1,21 @@
+{
+  "name": "i18n-key-visualizer-react",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/yelynn1/i18n-key-visualizer-react.git",
+  "author": "Ye Lynn",
+  "license": "MIT",
+  "keywords": ["react", "i18n", "localization", "debugging", "visualizer"],
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.2.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  }
+}
