@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { TransWithInspect } from "../components/TransWithInspect";
-import { getIsInspectMode, setIsInspectMode, subscribeToInspectMode } from '../states/i18nInspectorState';
+import {
+  getIsInspectMode,
+  setIsInspectMode,
+  subscribeToInspectMode,
+} from "../states/i18nInspectorState";
 
 export const useI18nInspector = (config = {}) => {
   const [isInspectMode, setMode] = useState(getIsInspectMode());
@@ -22,14 +26,15 @@ export const useI18nInspector = (config = {}) => {
   };
 
   const getJson = () => {
-    const json = i18nInstance.store.data || i18nInstance.services.resourceStore.data;
+    const json =
+      i18nInstance.store.data || i18nInstance.services.resourceStore.data;
     return json;
-  }
+  };
 
   return {
     isInspectMode,
     toggleInspect,
     t,
-    getJson
+    getJson,
   };
 };

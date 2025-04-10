@@ -20,9 +20,9 @@ export const TransWithInspect = (key, translatedValue) => {
         content={key}
         data-tooltip-wrapper="span"
         style={{
-          color: '#fff',
-          backgroundColor: '#333',
-          fontSize: '12px',
+          color: "#fff",
+          backgroundColor: "#333",
+          fontSize: "12px",
         }}
       />
     </>
