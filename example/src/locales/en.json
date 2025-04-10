@@ -1,0 +1,7 @@
+{
+    "home": {
+      "welcome": "Welcome to the app!",
+      "description": "This is a simple example of using i18n in a React app.",
+      "missingkey": "This is a missing key example."
+    }
+  }
